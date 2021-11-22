@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Sunnyside Agency Landing Page</title>
+
+</head>
+
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+  <!-- Bagian Header -->
+  <section class="head">
+    <header>
+      <a href="index.html"><img src="images/logo.svg" alt="Sunnyside’s logo"></a>
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <img src="images/icon-hamburger.svg" alt="hamburger" class="mobile-menu" id="menu" >
+    </header>
+    <div class="header-text">
+      <h1>We are creatives</h1>
+      <img src="images/icon-arrow-down.svg" alt="icon arrow down">
+    </div>
+  </section>
+
+  <!-- Mobile Navigation -->
+  <div class="mobile-nav" id="mobileNav">
+    <nav>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Bagian Features -->
+    <div class="features">
+      <article>
+      <div class="panel">
+        <div class="panel-text">
+          <h3>Transform your brand</h3>
+          <p>We are a full-service creative agency specializing in helping brands grow fast.
+            Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <a class="learn-more" href="#">Learn More</a>
+        </div>
+      </div>
+
+      <div class="img-container">
+        <picture>
+          <source media="(max-width: 375px)" srcset="images/mobile/image-transform.jpg">
+          <img src="images/desktop/image-transform.jpg" alt="transform image">
+        </picture>
+      </div>
+    </article>
+
+    <article>
+      <div class="img-container">
+        <picture>
+          <source media="(min-width: 280px)" srcset="images/mobile/image-stand-out.jpg">
+          <img src="images/desktop/image-stand-out.jpg" alt="stand out imnage">
+        </picture>
+      </div>
+
+      <div class="panel">
+        <div class="panel-text">
+          <h3>Stand out to the right audience</h3>
+          <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
+            we’ll build and extend your brand in digital places.</p>
+          <a class="learn-more" href="#">Learn More</a>
+        </div>
+      </div>
+    </article>
+
+    <article>
+      <div class="panel">
+        <div class="panel-text">
+          <h3>Graphic design</h3>
+          <p>
+            Great design makes you memorable. We deliver artwork that underscores your brand 
+            message and captures potential clients’ attention.
+          </p>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="panel-text">
+          <h3>Photography</h3>
+          <p>
+            Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+          </p>
+        </div>
+      </div>
+    </article>
+    </div>
+
+  <!-- Bagian Testimonials -->
+    <div class="testimonials">
+      <h3>Client Testimonals</h3>
+
+      <div class="testimonials-container">
+        
+        <section class="testimonials-section">
+          <img src="./images/image-emily.jpg" alt="young woman with brown hair and orange shirt">
+          <p> We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <div class="name">Emily R.</div>
+          <div class="title">Marketing Director </div>
+        </section>
+
+        <section class="testimonials-section">
+          <img src="./images/image-thomas.jpg" alt="smiling man wiht black here">
+          <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+          <div class="name">Thomas S.</div>
+          <div class="title">Chief Operating Officer</div>
+        </section>
+
+        <section class="testimonials-section">
+          <img src="./images/image-jennie.jpg" alt="middle-aged woman on the beach">
+          <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <div class="name">Jennie F.</div>
+          <div class="title">Business Owner</div>
+        </section>
+
+      </div>
+    </div>
+
+  <!-- Bagian Gallery -->
+    <div class="gallery">
+      <picture>
+        <source media=(max-width: 375px) srcset="images/mobile/image-gallery-milkbottles.jpg">
+        <img src="images/desktop/image-gallery-milkbottles.jpg" alt="milk bottle">
+      </picture>
+      <picture>
+        <source media="max-width: 375px" srcset="images/mobile/image-gallery-orange.jpg">
+        <img src="images/desktop/image-gallery-orange.jpg" alt="orange">
+      </picture>
+      <picture>
+        <source media="max-width: 375px" srcset="images/mobile/image-gallery-cone.jpg">
+        <img src="images/desktop/image-gallery-cone.jpg" alt="ice cream cone">
+      </picture>
+      <picture>
+        <source media=(max-width: 375px) srcset="images/mobile/image-gallery-sugarcubes.jpg">
+        <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="sugar cubes">
+      </picture>
+    </div>
+
+  <!-- Bagian Footer -->
+    <footer>
+      <img class="logo-footer" src="images/logo-footer.svg" alt="logo footer">
+      
+      <nav class="footer-menu">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-menu">
+        <ul>
+          <li><a href="#"><img src="images/icon-facebook.svg" alt="Facebook"></a></li>
+          <li><a href="#"><img src="images/icon-instagram.svg" alt="Instagram"></a></li>
+          <li><a href="#"><img src="images/icon-twitter.svg" alt="Twitter"></a></li>
+          <li><a href="#"><img src="images/icon-pinterest.svg" alt="Pinterest"></a></li>
+        </ul>
+      </nav>
+
+    </footer>
+
+    <!-- JS file -->
+    <script src="index.js"></script> 
+
+</body>
+
+</html>
